@@ -68,7 +68,7 @@ int main()
     for (i = 1; ; i++)
     {
         fprintf(fp, "this is %d...\n", i);
-        fflush(fp);
+        fflush(fp); //非常重要
         sleep(1);
     }
 
